@@ -1,0 +1,485 @@
+
+/*Modal Modal*/
+.modal-lg {
+    width: 700px;
+}
+
+.modal-sm {
+    width: 600px;
+}
+
+.modal-xs {
+    width: 400px;
+}
+
+.modal-xxs {
+    width: 250px;
+}
+
+.modal-body {
+    padding: 0;
+}
+
+.rs .progress{
+	width: 62%;
+}
+
+.pp{
+	position: relative;
+}
+
+.bgtask-bar  strong
+{
+color: black;
+position: absolute;
+}
+
+/* fin fin Modal Modal*/
+
+
+/*Profile Profile*/
+              input.hidden {
+    position: absolute;
+    left: -9999px;
+}
+
+#profile-image1 {
+    cursor: pointer;
+  
+     width: 100px;
+    height: 100px;
+	border:2px solid #03b1ce ;}
+	.tital{ font-size:16px; font-weight:500;}
+	 .bot-border{ border-bottom:1px #f8f8f8 solid;  margin:5px 0  5px 0
+}
+
+/*fin fin Profile Profile*/
+
+
+
+/*table last child */
+table.tt tr td:last-child {
+    white-space: nowrap;
+    width: 1px;
+}
+/*fin fin table last child */
+
+/*Formation plus*/
+.user-row {
+    margin-bottom: 14px;
+}
+
+.user-row:last-child {
+    margin-bottom: 0;
+}
+
+.dropdown-user {
+    margin: 13px 0;
+    padding: 5px;
+    height: 100%;
+}
+
+.dropdown-user:hover {
+    cursor: pointer;
+}
+
+.table-user-information > tbody > tr {
+    border-top: 1px solid rgb(221, 221, 221);
+}
+
+.table-user-information > tbody > tr:first-child {
+    border-top: 0;
+}
+
+
+.table-user-information > tbody > tr > td {
+    border-top: 0;
+}
+.toppad
+{margin-top:20px;
+}
+/*Fin Formation plus*/
+
+
+/* table de Formation visualisation*/
+.f_table > tbody  td {
+    font-size: 120%;
+}
+
+.f_table > tbody > tr:first-child > td {
+    border: none;
+}
+
+.f_table > tbody > tr > td:last-child {
+    text-align: center;
+}
+.no_border{
+    border: none;
+}
+/* fin fin table de Formation visualisation*/
+.form-group .alert_small {
+    display: inline-block;
+    height: 25px;
+    line-height:25px;
+    padding:0px 15px;
+    margin-left: 10px;
+}
+
+.form_content {
+    padding: 10px 30px 0px;
+}
+
+.button-list{
+    display: flex;
+    justify-content: space-around;
+}
+
+div.radios{
+	margin-left: 35px;	
+}
+
+.modal-ssm {
+    width: 530px;
+}
+
+.tab {
+    padding-left:5em;
+}
+
+.fontPlus {
+    font-size: 120%;
+}
+
+.paddLeftPlus{
+	padding-left: 10px;
+}
+
+.paddTopPlus{
+	padding-top: 15px;
+}
+
+.moduleesList > li{
+	border: none;
+	padding-top: 0;
+	padding-buttom: 0;
+}
+
+.moduleesList  li div{
+	margin-bottom: 8px;
+	font-weight: bold;
+}
+/*La page de login*/
+
+
+
+.loginPage {
+  box-sizing: border-box;
+}
+
+html.loginPage, .loginPage body{
+  height: 100%;
+}
+
+.loginPage body {
+    margin: 0;
+    padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Montserrat, sans-serif;
+  text-transform: uppercase;
+}
+
+.loginPage .c-form__container {
+  width: 100%;
+  height: 100%;
+}
+
+.loginPage .c-form__wrapper {
+  height: 100%;
+  float: left;
+  position: relative;
+  overflow: hidden;
+  transition: width 0.5s, background-color 0.5s;
+}
+.loginPage .c-form__wrapper--login {
+  width: 75%;
+  background: linear-gradient(to left, #487eb0, #00a8ff);
+}
+.loginPage .signup_active .c-form__wrapper--login {
+  width: 25%;
+  background:linear-gradient(to right, #232f41, #374a62);
+  cursor: pointer;
+}
+.loginPage .c-form__wrapper--signup {
+  width: 25%;
+  background:linear-gradient(to right, #374a62, #232f41);
+  cursor: pointer;
+}
+.loginPage .signup_active .c-form__wrapper--signup {
+  width: 75%;
+  background: linear-gradient(to right, #487eb0, #00a8ff);
+  cursor: default;
+}
+.loginPage .c-form__titre {
+  width: 100;
+  top: 25px;
+  left: 200px;
+  color: #dddddd;
+}
+.loginPage .c-form__titre {
+  font-size: 50px;
+  font-weight: 200;
+  position: absolute;
+  text-align: center;
+  transition: all 0.5s;
+}
+.loginPage .c-form__titre2 {
+  width: 100;
+  top: 25px;
+  left: 200px;
+  color: #dddddd;
+ opacity : 0;    
+}
+.loginPage .c-form__titre2 {
+  font-size: 50px;
+  font-weight: 200;
+  position: absolute;
+  text-align: center;
+  transition: all 0.5s;
+}
+.loginPage .c-form__image1 {
+  width: 100%;
+  top: 100px;
+  left: 200px;
+  opacity : 0.5;
+}
+.loginPage .c-form__image1 {
+  font-size: 50px;
+  font-weight: 200;
+  position: absolute;
+  text-align: center;
+  transition: all 0.5s;
+}
+.loginPage .c-form__image2 {
+  width: 100%;
+  top: 100px;
+  left: 200px;
+  opacity : 0;
+}
+.loginPage .c-form__image2 {
+  font-size: 50px;
+  font-weight: 200;
+  position: absolute;
+  text-align: center;
+  transition: all 0.5s;
+}
+.loginPage .c-form__picture1 {
+  width: 100;
+  top: 100px;
+  left: 67px;
+  color: #dddddd;
+  opacity : 0.8;    
+}
+.loginPage .c-form__picture1 {
+  font-size: 50px;
+  font-weight: 200;
+  margin-top: 100px;
+    margin-bottom: 30px;
+/*  position: absolute;*/
+  text-align: center;
+  transition: all 0.5s;
+}
+.loginPage .c-form__picture2 {
+  width: 100;
+  top: 25px;
+  left: 700px;
+  opacity : 0;
+}
+.loginPage .c-form__picture2 {
+  font-size: 50px;
+  font-weight: 200;
+  margin-top: 100px;
+  margin-bottom: 30px;
+/*  position: absolute;*/
+  text-align: center;
+  transition: all 0.5s;
+}
+.loginPage .c-form__title {
+  font-size: 40px;
+  font-weight: 200;
+  position: absolute;
+  text-align: center;
+  transition: all 0.5s;
+}
+.loginPage .c-form__title--login {
+  width: 0;
+  top: 200px;
+  left: 60px;
+  color: #dddddd;
+}
+.loginPage .signup_active .c-form__title--login {
+  width: 100%;
+  top: 333px;
+  left: 0;
+  color: white;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.loginPage .c-form__title--signup {
+  width: 100%;
+/*  top: 50%;*/
+  left: 0;
+  color: white;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+.loginPage .signup_active .c-form__title--signup {
+  width: 0;
+  color: #dddddd;
+  top: 200px;
+  left: 60px;
+  -webkit-transform: none;
+          transform: none;
+}
+
+.loginPage .signup_active .c-form__titre {
+  width: 200;
+  color: #dddddd;
+     opacity : 0;
+  top: 25px;
+  left: 200px;
+  -webkit-transform: none;
+          transform: none;
+}
+.loginPage .signup_active .c-form__titre2 {
+  width: 200;
+  color: #dddddd;
+    opacity : 1;
+  top: 25px;
+  left: 200px;
+  -webkit-transform: none;
+          transform: none;
+}
+.loginPage .signup_active .c-form__image1 {
+  width: 200;
+  color: #dddddd;
+    opacity : 0;
+  top: 25px;
+  left: 200px;
+  -webkit-transform: none;
+          transform: none;
+}
+.loginPage .signup_active .c-form__image2 {
+  width: 100%;
+  color: #dddddd;
+    opacity : 0.5;
+  top: 100px;
+  left: 200px;
+  -webkit-transform: none;
+          transform: none;
+}
+.loginPage .signup_active .c-form__picture1 {
+  width: 200;
+  color: #dddddd;
+    opacity : 0;
+  top: 25px;
+  left: 200px;
+  -webkit-transform: none;
+          transform: none;
+}
+.loginPage .signup_active .c-form__picture2 {
+  width: 200;
+  color: #dddddd;
+     opacity : 0.8;
+  top: 100px;
+  left: 67px;
+  -webkit-transform: none;
+          transform: none;
+}
+.loginPage .c-form {
+  position: absolute;
+  top: 260px;
+  left: 60px;
+  transition: opacity 0.5s, -webkit-transform 0.5s;
+  transition: transform 0.5s, opacity 0.5s;
+  transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
+}
+.loginPage .signup_active .c-form--login {
+  -webkit-transform: translateX(-200%);
+          transform: translateX(-200%);
+  opacity: 0;
+}
+.loginPage .c-form--signup {
+  -webkit-transform: translateX(200%);
+          transform: translateX(200%);
+  opacity: 0;
+}
+.loginPage .signup_active .c-form--signup {
+  -webkit-transform: none;
+          transform: none;
+  opacity: 1;
+}
+
+.loginPage .c-form__input-container {
+  padding: 15px 0;
+}
+
+.loginPage .c-form__input-wrapper {
+  width: 300px;
+  position: relative;
+}
+.loginPage .c-form__input-wrapper .c-form__input {
+  width: 100%;
+}
+
+.loginPage .c-form__input {
+  width: 300px;
+  padding: 10px 25px;
+  border: 1px solid #dddddd;
+  font-family: Montserrat, sans-serif;
+  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.04);
+  outline: none;
+}
+.loginPage .c-form__input::-webkit-input-placeholder {
+  color: #7f848c;
+}
+.loginPage .c-form__input::-moz-placeholder {
+  color: #7f848c;
+}
+.loginPage .c-form__input:-ms-input-placeholder {
+  color: #7f848c;
+}
+.loginPage .c-form__input:-moz-placeholder {
+  color: #7f848c;
+}
+
+.loginPage .c-form__button {
+  padding: 15px 100px;
+  position: relative;
+  background: transparent;
+  border: 1px solid #dddddd;
+  font-family: Montserrat, sans-serif;
+  color: #dddddd;
+  text-transform: uppercase;
+  transition: color 0.3s, border-color 0.3s, box-shadow 0.3s;
+  cursor: pointer;
+}
+.loginPage .c-form__button:hover {
+  color: #badc58;
+  border-color: #badc58;
+  box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.1);
+}
+
+.loginPage .c-form__input-show {
+  position: absolute;
+  top: 50%;
+  right: -30px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  font-size: 14px;
+  color: #232f41;
+  font-weight: 300;
+  cursor: pointer;
+}
+/*fin La page de login*/
